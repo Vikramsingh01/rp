@@ -10,8 +10,9 @@
 		<!-- <groups> <run> <exclude name = "Functionality" /> </run> </groups> -->
 		<parameter name="browser" value="chrome" />
 		<classes>
-			<class name="com.qed42.qa.tests.LoginExampleTest"></class>
 			<class name="com.qed42.qa.tests.ExcelExampleTest"></class>
+			<class name="com.qed42.qa.tests.JsonExampleTest"></class>
+			<class name="com.qed42.qa.tests.LoginExampleTest"></class>
 		</classes>
 	</test> <!-- Test -->
 

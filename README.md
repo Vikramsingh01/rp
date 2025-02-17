@@ -1,6 +1,6 @@
-# Headway - Selenium Data Driven Framework
+#Selenium Data Driven Framework
 
-Headway is a data-driven testing framework that uses Selenium to automate web-based applications. It is designed to
+It is a data-driven testing framework that uses Selenium to automate web-based applications. It is designed to
 simplify the process of creating and executing automated tests by separating test data from test logic.
 
 ********************************************************************************
@@ -26,17 +26,12 @@ simplify the process of creating and executing automated tests by separating tes
 
 ## Installations
 
-1. Clone this repository to your local machine.
+1. Clone this repository to your local machine -> https://github.com/Vikramsingh01/rp
 2. Install the required dependencies by running <code>mvn clean install</code> in the root directory <br>
    OR <br>
    Import project as an existing Maven project in Eclipse, File > Import > Maven > Existing Maven Projects > Next > <br>
-   a. Browse to headway <br>
+   a. Browse to automation-demo <br>
    b. Ensure pom.xml is found <br>
    c. Finish.
 3. Update the <code>config.properties</code> file to configure the test settings such as the browser type and test URL.
 4. Write your test cases in the <code> src/test/java </code> directory using TestNG annotation and POM design pattern.
-
-## Contribution
-
-Contributions are welcome! Please feel free to open a pull request or submit an issue if you find any bugs or have any
-suggestions for improvement.
