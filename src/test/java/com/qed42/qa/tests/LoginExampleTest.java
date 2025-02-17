@@ -15,7 +15,7 @@ public class LoginExampleTest extends BaseTest {
 	@Test
 	public void testLoginValidInput() throws Exception {
 		LoginExamplePage obj1 = new LoginExamplePage(DriverManager.getDriver());
-		obj1.login("selenium@qa","qa@12345");
+		obj1.login("rptest","rptest123");
 		Report.log(Status.PASS, "Login successful");
 		Assert.assertEquals(obj1.getPageCurrentUrl(), "https://demo.guru99.com/test/newtours/login_sucess.php");
 	}
