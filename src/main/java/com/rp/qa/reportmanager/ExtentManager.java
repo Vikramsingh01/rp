@@ -13,7 +13,6 @@ import com.rp.qa.configurations.Configuration;
  * ExtentManager class implements Configuration interface.
  * In this class, we create an ExtentReports object which can be reachable via getExtentReports() method. 
  * Also, we set ExtentReports report HTML file location.
- *
  */
 public class ExtentManager implements Configuration {
 

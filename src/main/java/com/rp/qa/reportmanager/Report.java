@@ -11,7 +11,6 @@ import com.aventstack.extentreports.Status;
  * ExtentReports instance created by calling getExtentReports() method from ExtentManager.
  * At startTest() method, an instance of ExtentTest is created and put into extentTestMap with current thread id.
  * At getTest() method, return ExtentTest instance in extentTestMap by using current thread id.
- *
  */
 public class Report {
 	static Map<Integer, ExtentTest> extentTestMap = new HashMap<>();

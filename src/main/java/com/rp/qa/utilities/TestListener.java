@@ -19,7 +19,6 @@ import org.openqa.selenium.TakesScreenshot;
  * TestListener class implements ITestListener interface.
  * We have added Extent Reports codes in each method.
  * This class is used to generate logs or customize the TestNG reports.
- *
  */
 public class TestListener implements ITestListener {
 
