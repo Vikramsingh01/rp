@@ -1,10 +1,10 @@
-package com.qed42.qa.pageobjects;
+package com.rp.qa.pageobjects;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import com.aventstack.extentreports.Status;
-import com.qed42.qa.configurations.Configuration;
-import com.qed42.qa.reportmanager.Report;
+import com.rp.qa.configurations.Configuration;
+import com.rp.qa.reportmanager.Report;
 
 public class LoginExamplePage {
 

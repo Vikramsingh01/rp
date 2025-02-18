@@ -1,4 +1,4 @@
-package com.qed42.qa.driver;
+package com.rp.qa.driver;
 
 import java.time.Duration;
 import org.apache.logging.log4j.LogManager;
@@ -11,7 +11,7 @@ import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.firefox.FirefoxOptions;
 import org.openqa.selenium.safari.SafariDriver;
-import com.qed42.qa.configurations.Configuration;
+import com.rp.qa.configurations.Configuration;
 import org.testng.annotations.Optional;
 
 /**

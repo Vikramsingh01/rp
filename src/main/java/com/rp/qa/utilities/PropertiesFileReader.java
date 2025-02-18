@@ -1,4 +1,4 @@
-package com.qed42.qa.utilities;
+package com.rp.qa.utilities;
 
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;

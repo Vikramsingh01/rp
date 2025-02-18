@@ -1,4 +1,4 @@
-package com.qed42.qa.tests;
+package com.rp.qa.tests;
 
 import org.testng.annotations.Test;
 import org.json.simple.JSONArray;
@@ -7,13 +7,13 @@ import org.testng.Assert;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Listeners;
 import com.aventstack.extentreports.Status;
-import com.qed42.qa.configurations.Configuration;
-import com.qed42.qa.driver.DriverManager;
-import com.qed42.qa.pageobjects.LoginExamplePage;
-import com.qed42.qa.reportmanager.Report;
-import com.qed42.qa.utilities.JsonFileReader;
+import com.rp.qa.configurations.Configuration;
+import com.rp.qa.driver.DriverManager;
+import com.rp.qa.pageobjects.LoginExamplePage;
+import com.rp.qa.reportmanager.Report;
+import com.rp.qa.utilities.JsonFileReader;
 
-@Listeners(com.qed42.qa.utilities.TestListener.class)
+@Listeners(com.rp.qa.utilities.TestListener.class)
 
 public class JsonExampleTest extends BaseTest {
 

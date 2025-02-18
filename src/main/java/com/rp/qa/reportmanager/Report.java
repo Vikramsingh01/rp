@@ -1,4 +1,4 @@
-package com.qed42.qa.reportmanager;
+package com.rp.qa.reportmanager;
 
 import java.util.HashMap;
 import java.util.Map;

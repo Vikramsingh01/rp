@@ -1,4 +1,4 @@
-package com.qed42.qa.tests;
+package com.rp.qa.tests;
 
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.AfterMethod;
@@ -7,9 +7,9 @@ import org.testng.annotations.Listeners;
 import org.testng.annotations.Optional;
 import org.testng.annotations.Parameters;
 
-import com.qed42.qa.driver.DriverManager;
+import com.rp.qa.driver.DriverManager;
 
-@Listeners(com.qed42.qa.utilities.TestListener.class)
+@Listeners(com.rp.qa.utilities.TestListener.class)
 
 public class BaseTest {
 

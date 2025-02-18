@@ -1,4 +1,4 @@
-package com.qed42.qa.tests;
+package com.rp.qa.tests;
 
 import org.testng.Assert;
 import org.testng.annotations.DataProvider;
@@ -9,13 +9,13 @@ import java.util.HashMap;
 import java.util.List;
 import com.aventstack.extentreports.Status;
 import com.codoid.products.exception.FilloException;
-import com.qed42.qa.configurations.Configuration;
-import com.qed42.qa.driver.DriverManager;
-import com.qed42.qa.pageobjects.LoginExamplePage;
-import com.qed42.qa.reportmanager.Report;
-import com.qed42.qa.utilities.ExcelManager;
+import com.rp.qa.configurations.Configuration;
+import com.rp.qa.driver.DriverManager;
+import com.rp.qa.pageobjects.LoginExamplePage;
+import com.rp.qa.reportmanager.Report;
+import com.rp.qa.utilities.ExcelManager;
 
-@Listeners(com.qed42.qa.utilities.TestListener.class)
+@Listeners(com.rp.qa.utilities.TestListener.class)
 
 public class ExcelExampleTest extends BaseTest {
 	ArrayList<String> loginCreds = new ArrayList<String>();

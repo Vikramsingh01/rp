@@ -1,4 +1,4 @@
-package com.qed42.qa.utilities;
+package com.rp.qa.utilities;
 
 import java.io.File;
 import java.text.SimpleDateFormat;
@@ -10,8 +10,8 @@ import org.testng.ITestContext;
 import org.testng.ITestListener;
 import org.testng.ITestResult;
 import com.aventstack.extentreports.Status;
-import com.qed42.qa.driver.DriverManager;
-import com.qed42.qa.reportmanager.Report;
+import com.rp.qa.driver.DriverManager;
+import com.rp.qa.reportmanager.Report;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 
