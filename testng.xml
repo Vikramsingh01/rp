@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="Test Suite" thread-count ="2" parallel="methods">
+<suite name="Test Suite" thread-count ="1" parallel="methods">
 
 	<listeners>
 		<listener class-name="com.rp.qa.utilities.TestListener"></listener>
@@ -8,7 +8,7 @@
 
 	<test name="Testing 1">
 		<!-- <groups> <run> <exclude name = "Functionality" /> </run> </groups> -->
-		<parameter name="browser" value="chrome" />
+		<parameter name="browser" value="firefox" />
 		<classes>
 			<class name="com.rp.qa.tests.ExcelExampleTest"></class>
 			<class name="com.rp.qa.tests.JsonExampleTest"></class>
