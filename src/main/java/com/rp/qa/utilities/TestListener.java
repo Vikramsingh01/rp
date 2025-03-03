@@ -38,7 +38,8 @@ public class TestListener implements ITestListener {
 	public void onTestFailure(ITestResult result) {
 		log.info("Test Failed : " + result.getName());
 		try {
-			String date = new SimpleDateFormat("yyyy-MM-dd_HH:mm:ss").format(new Date());
+			//String date = new SimpleDateFormat("yyyy-MM-dd_HH:mm:ss").format(new Date());
+			String date = new SimpleDateFormat("yyyy-MM-dd_HH-mm-ss").format(new Date());
 
 			//Object currentInstance = result.getInstance();
 			TakesScreenshot ts = (TakesScreenshot) (DriverManager.getDriver());
