@@ -1,35 +1,38 @@
 package com.rp.qa.utilities;
 
 import java.io.FileInputStream;
-import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.util.Properties;
+import java.util.logging.Level;
+import java.util.logging.Logger;
 
 /**
- * PropertiesFileReader class reads properties files and returns instance of "Properties" class. 
- * It provides one method - read(fileName), which take filepath as the parameter.
+ * PropertiesFileReader class reads properties files and returns an instance of the Properties class.
+ * It provides a method - read(fileName), which takes the filepath as the parameter.
+ *
+ * @author QED42
  */
 public class PropertiesFileReader {
-	public static Properties properties;
+
+	private static final Logger LOGGER = Logger.getLogger(PropertiesFileReader.class.getName());
 
 	/**
-	 * Reads properties file and returns instance of Properties class
-	 * 
-	 * @param fileName
-	 * @return
+	 * Reads a properties file and returns an instance of Properties class.
+	 *
+	 * @param fileName the path to the properties file
+	 * @return Properties instance containing the loaded properties, or null if loading fails
 	 */
 	public static Properties read(String fileName) {
-		try {
-			properties = new Properties();
-			FileInputStream ip = new FileInputStream(fileName);
+		Properties properties = new Properties();
+
+		// Try-with-resources ensures FileInputStream is closed after use
+		try (FileInputStream ip = new FileInputStream(fileName)) {
 			properties.load(ip);
-		} catch (FileNotFoundException e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
-			System.out.println("File not found");
 		} catch (IOException e) {
-			System.out.println("IO Exception");
+			LOGGER.log(Level.SEVERE, "Error loading properties file: " + fileName, e);
+			return null;  // Return null if file cannot be loaded
 		}
+
 		return properties;
 	}
 }
