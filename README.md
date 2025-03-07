@@ -8,7 +8,7 @@ simplify the process of creating and executing automated tests by separating tes
 ## Features
 
 1. Data-driven approach: Test data is stored separately from the test scripts, allowing for easy modification and reuse
-   of test cases.
+   of test cases..
 2. Modularity: The framework is built using a modular approach, making it easy to add or remove functionality as needed.
 3. Reporting: The framework generates detailed test reports in HTML format, making it easy to track test results and
    identify issues.
