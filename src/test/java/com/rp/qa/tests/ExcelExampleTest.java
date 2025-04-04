@@ -26,6 +26,7 @@ public class ExcelExampleTest extends BaseTest {
 		obj.login(username, password);
 		Assert.assertEquals(obj.getPageCurrentUrl(), "https://demo.guru99.com/test/newtours/login_sucess.php");
 		Report.log(Status.PASS, "Login successful");
+
 	}
 
 	@DataProvider

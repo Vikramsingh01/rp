@@ -1,0 +1,37 @@
+{
+  "users": [
+    {
+      "FirstName": "Swati",
+      "LastName": "Doe",
+      "Phone": "123-456-7890",
+      "Email": "swati.doe01@example.com",
+      "Address": "123 Main St",
+      "City": "New York",
+      "State": "NY",
+      "Postal": "10001",
+      "Password": "Pass@123"
+    },
+    {
+      "FirstName": "Jane",
+      "LastName": "Smith",
+      "Phone": "987-654-3210",
+      "Email": "jane.smith01@example.com",
+      "Address": "456 Elm St",
+      "City": "Los Angeles",
+      "State": "CA",
+      "Postal": "90001",
+      "Password": "Jane@456"
+    },
+    {
+      "FirstName": "Alice",
+      "LastName": "Brown",
+      "Phone": "555-666-7777",
+      "Email": "alice.brown01@example.com",
+      "Address": "789 Oak St",
+      "City": "Chicago",
+      "State": "IL",
+      "Postal": "60601",
+      "Password": "Alice@789"
+    }
+  ]
+}
