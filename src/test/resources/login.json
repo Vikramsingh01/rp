@@ -7,6 +7,10 @@
 		{
 			"username": "selenium",
 			"password": "qa@123"
+		},
+		{
+			"username": "dkaushik",
+			"password": "123456"
 		}
 	]
 }
